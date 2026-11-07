@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Official website of the Sangguniang Bayan ng Irosin, Municipality of Irosin, Province of Sorsogon.">
+<meta name="theme-color" content="#102b3a">
+<title>Sangguniang Bayan ng Irosin | Official Website</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{--ink:#142d3b;--ink-2:#203f50;--muted:#647984;--paper:#f4f7f6;--white:#fff;--line:#dce6e5;--green:#287d68;--green-dark:#155543;--gold:#d7b66d;--soft:#e8f1ed;--shadow:0 18px 50px rgba(18,48,58,.09);--spring:cubic-bezier(.22,.8,.22,1);--spring-lin:cubic-bezier(.34,1.56,.64,1);--nav-h:77px}
+@supports (transition-timing-function:linear(0,1)){:root{--spring-lin:linear(0.0, 0.041, 0.143, 0.279, 0.428, 0.574, 0.706, 0.82, 0.911, 0.981, 1.03, 1.061, 1.078, 1.083, 1.081, 1.073, 1.061, 1.049, 1.037, 1.026, 1.016, 1.008, 1.002, 0.998, 0.995, 0.994, 0.993, 0.993, 0.994, 0.995, 0.996, 0.997, 0.998, 0.999, 0.999, 1.0, 1)}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.6;overflow-x:hidden}a{color:inherit}button,input{font:inherit}.container{width:min(1160px,calc(100% - 44px));margin-inline:auto}
+.topline{position:relative;z-index:60;height:5px;background:linear-gradient(90deg,var(--green-dark),var(--gold),var(--green))}
+.site-nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.93);backdrop-filter:blur(16px);border-bottom:1px solid rgba(20,45,59,.09);transition:transform .55s var(--spring)}.site-nav.nav-hidden{transform:translateY(-110%)}.nav-inner{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:240px}.brand img{width:47px;height:47px;object-fit:contain}.brand-copy{display:grid;line-height:1.2}.brand-copy strong{font:800 .9rem Manrope,sans-serif;letter-spacing:.015em}.brand-copy span{font-size:.72rem;color:var(--muted);margin-top:4px}.nav-links{display:flex;align-items:center;gap:5px}.nav-links a{font-size:.84rem;font-weight:700;text-decoration:none;color:#405b67;padding:10px 12px;border-radius:9px;transition:background .2s,color .2s}.nav-links a:hover,.nav-links a:focus-visible{background:var(--soft);color:var(--green-dark);outline:none}.nav-toggle{display:none;border:1px solid var(--line);background:white;border-radius:10px;width:43px;height:43px;color:var(--ink);font-size:1.25rem}
+
+.hero-copy{max-width:760px}.eyebrow{display:inline-flex;align-items:center;gap:10px;text-transform:uppercase;letter-spacing:.17em;font-size:.72rem;font-weight:800;color:#e8d39d}.eyebrow::before{content:"";width:28px;height:1px;background:var(--gold)}.hero h1{font:700 clamp(2.7rem,6.2vw,5.25rem)/1.04 'Playfair Display',Georgia,serif;letter-spacing:-.035em;margin:20px 0 18px;max-width:750px}.hero h1 span{color:#e7cf91}.hero-lead{font-size:clamp(1rem,1.7vw,1.16rem);color:rgba(255,255,255,.88);max-width:610px;margin:0 0 30px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;text-decoration:none;border-radius:999px;padding:13px 21px;font-weight:800;font-size:.88rem;transition:transform .25s var(--spring),background .25s,box-shadow .25s}.btn:hover{transform:translateY(-3px)}.btn-primary{background:#e0c17b;color:#172f3b;box-shadow:0 9px 24px rgba(0,0,0,.18)}.btn-ghost{color:white;border:1px solid rgba(255,255,255,.55);background:rgba(255,255,255,.09);backdrop-filter:blur(8px)}.hero-meta{display:flex;flex-wrap:wrap;gap:16px 28px;margin-top:42px;color:rgba(255,255,255,.78);font-size:.78rem}.hero-meta strong{color:white}
+.quick-strip{background:#fff;border-bottom:1px solid var(--line)}.quick-inner{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:22px 0}.quick-item{display:flex;align-items:center;gap:13px}.quick-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:13px;background:var(--soft);color:var(--green-dark);font-size:1.15rem}.quick-item strong{display:block;font:800 .9rem Manrope}.quick-item span{font-size:.76rem;color:var(--muted)}
+section{padding:82px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 38px}.section-kicker{font-size:.72rem;text-transform:uppercase;letter-spacing:.16em;color:var(--green);font-weight:800}.section-head h2{font:700 clamp(2rem,4vw,3rem)/1.15 'Playfair Display',Georgia,serif;margin:10px 0 12px;color:var(--ink)}.section-head p{color:var(--muted);margin:0;font-size:.98rem}.surface{background:white;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px}.about-copy{padding:34px}.about-copy h3{font:700 1.25rem Manrope;margin:0 0 12px}.about-copy p{color:#536a75;margin:0 0 14px}.about-highlight{padding:32px;background:linear-gradient(145deg,#173e4b,#102b3a);color:white;position:relative;overflow:hidden}.about-highlight::after{content:"";position:absolute;width:240px;height:240px;border:1px solid rgba(255,255,255,.12);border-radius:50%;right:-90px;bottom:-120px;box-shadow:0 0 0 28px rgba(255,255,255,.035),0 0 0 58px rgba(255,255,255,.025)}.about-highlight h3{font:700 1.35rem 'Playfair Display';margin:0 0 12px}.about-highlight p{color:rgba(255,255,255,.78);margin:0;position:relative;z-index:1}.about-highlight .quality-mark{display:inline-block;margin-top:24px;color:#e7cf91;font-size:.72rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+
+
+.directory{background:#edf3f1}.directory-shell{background:white;border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);overflow:hidden}.directory-toolbar{padding:24px 26px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}.tabs{display:inline-flex;gap:4px;padding:4px;border-radius:13px;background:#edf3f1;border:1px solid #e1e9e6}.tab{border:0;background:transparent;color:#58707a;padding:11px 16px;border-radius:10px;font-weight:800;font-size:.82rem;cursor:pointer;transition:background .35s var(--spring),color .25s,box-shadow .35s}.tab[aria-selected="true"]{background:white;color:var(--green-dark);box-shadow:0 2px 9px rgba(19,51,58,.12)}.search-wrap{position:relative;min-width:min(100%,310px);flex:0 1 360px}.search-wrap input{width:100%;border:1px solid #d9e4e1;background:#fbfdfc;border-radius:999px;padding:12px 17px 12px 43px;outline:none;color:var(--ink);transition:border .2s,box-shadow .2s}.search-wrap input:focus{border-color:#6da995;box-shadow:0 0 0 4px rgba(40,125,104,.12)}.search-wrap span{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:#71858c}.directory-panel{padding:26px;animation:panel-in .42s var(--spring) both}.directory-panel[hidden]{display:none}.directory-note{margin:0 0 20px;color:var(--muted);font-size:.84rem}.committee-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.committee-card{border:1px solid var(--line);border-radius:17px;padding:21px 22px;background:linear-gradient(150deg,#fff,#fbfdfc);transition:transform .28s var(--spring),box-shadow .28s,border-color .28s}.committee-card:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(18,48,58,.08);border-color:#bfd6ce}.card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.card-number{font:800 .72rem Manrope;color:#9aa9a9;letter-spacing:.1em}.card-tag{font-size:.65rem;text-transform:uppercase;letter-spacing:.08em;font-weight:800;color:var(--green);background:var(--soft);padding:5px 8px;border-radius:999px}.committee-card h3{font:800 1.04rem/1.35 Manrope;margin:0 0 15px}.roles{margin:0;display:grid;gap:9px}.roles div{display:grid;grid-template-columns:122px 1fr;gap:10px}.roles dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:#71838a;font-weight:800}.roles dd{margin:0;font-size:.83rem;color:#314b57;font-weight:600}.assignment-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.assignment-card{display:flex;align-items:flex-start;gap:16px;padding:21px;border:1px solid var(--line);border-radius:16px;background:#fff;transition:transform .28s var(--spring),box-shadow .28s}.assignment-card:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(18,48,58,.08)}.assignment-index{width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;border-radius:12px;background:var(--ink);color:#f1d99c;font:800 .78rem Manrope}.assignment-label{font-size:.68rem;color:var(--green);text-transform:uppercase;letter-spacing:.09em;font-weight:800;margin:0 0 4px}.assignment-card h3{font:800 .95rem Manrope;margin:0 0 7px}.barangay-list{color:var(--muted);font-size:.86rem;margin:0}.no-results{grid-column:1/-1;text-align:center;padding:35px;color:var(--muted)}
+.notice{margin:20px 26px 26px;padding:14px 17px;border-left:3px solid var(--gold);background:#fbf8f0;color:#6e5a2e;border-radius:0 10px 10px 0;font-size:.8rem}
+
+.connect{background:#edf3f1}.connect-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}.social-card,.qr-card{padding:25px}.social-card h3,.qr-card h3{font:800 1rem Manrope;margin:0 0 13px}.fb-frame{border-radius:13px;overflow:hidden;background:#eaf0ee;display:flex;justify-content:center}.fb-frame iframe{border:0;width:100%;max-width:500px;height:460px}.social-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:13px;font-size:.82rem;font-weight:800;color:var(--green-dark)}.social-links a{text-decoration:none}.social-links a:hover{text-decoration:underline}.qr-card{text-align:center}.qr-card img{width:190px;height:190px;object-fit:contain;padding:8px;background:white;border:1px solid var(--line);border-radius:13px}.qr-card p{color:var(--muted);font-size:.85rem;margin:8px auto 0;max-width:280px}
+footer{background:#102b3a;color:rgba(255,255,255,.75);padding:42px 0 28px}.footer-inner{text-align:center}.footer-seals{display:flex;justify-content:center;gap:12px;margin-bottom:15px}.footer-seals img{width:48px;height:48px;object-fit:contain;background:#fff;border-radius:50%;padding:3px}.footer-inner strong{display:block;color:white;font:800 1.05rem Manrope}.footer-inner p{font-size:.82rem;margin:6px 0}.footer-inner a{color:#e5ca88;text-decoration:none}.footer-bottom{margin-top:25px;padding-top:17px;border-top:1px solid rgba(255,255,255,.12);font-size:.72rem;color:rgba(255,255,255,.55)}
+.request-bar{position:fixed;z-index:40;bottom:14px;left:50%;transform:translateX(-50%);width:min(900px,calc(100% - 28px));padding:12px 18px;border:1px solid rgba(255,255,255,.18);border-radius:14px;background:rgba(16,43,58,.94);backdrop-filter:blur(12px);box-shadow:0 12px 35px rgba(0,0,0,.2);color:#e8f0ed;text-align:center;font-size:.76rem;line-height:1.5}.request-bar strong{color:#e5ca88}.request-bar a{color:#e5ca88;font-weight:800;text-decoration:none}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s var(--spring)}.reveal.is-visible{opacity:1;transform:none}
+@keyframes panel-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(max-width:900px){:root{--nav-h:69px}.nav-inner{min-height:68px}.nav-toggle{display:block}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;padding:12px 22px 18px;background:white;border-bottom:1px solid var(--line);box-shadow:0 12px 25px rgba(0,0,0,.08);flex-wrap:wrap}.nav-links.open{display:flex}.nav-links a{width:calc(50% - 5px)}.about-grid,.connect-grid{grid-template-columns:1fr}}
+@media(max-width:650px){.container{width:min(100% - 30px,1160px)}.quick-inner{grid-template-columns:1fr;gap:14px;padding:18px 0}.quick-item{padding-left:8px}section{padding:62px 0}.committee-grid,.assignment-grid{grid-template-columns:1fr}.directory-toolbar{padding:18px}.tabs{width:100%}.tab{flex:1;padding:10px 7px;font-size:.74rem}.search-wrap{flex-basis:100%}.directory-panel{padding:17px}.roles div{grid-template-columns:108px 1fr;gap:7px}.about-copy,.about-highlight{padding:25px}.request-bar{font-size:.68rem;bottom:8px;padding:10px 12px}.brand{min-width:0}.brand-copy strong{font-size:.78rem}.brand-copy span{font-size:.65rem}}
+
+/* ======================= HERO: collage first, background slides ======================= */
+.hero{position:relative;margin-top:calc(var(--nav-h) * -1);color:#fff;background:#0b2233}
+.hero-track{height:calc(100vh + 160vh);height:calc(100svh + 160svh)}
+.hero-stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;isolation:isolate;background:#0b2233}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-slide{position:absolute;inset:0;opacity:0;background-size:cover;background-repeat:no-repeat;background-position:center;transition:opacity 1.4s ease}
+.hero-slide.is-active{opacity:1}
+.slide-collage{background-image:url('assets/hero-collage-web.jpg')}
+.slide-civic{background-image:url('assets/irosin-civic.jpg');background-position:center 46%}
+.slide-bulusan{background-image:url('assets/irosin-bulusan.jpg');background-position:center 40%}
+.hero-scrim{position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(7,24,40,.9) 0%,rgba(7,24,40,.76) 42%,rgba(7,24,40,.34) 100%),linear-gradient(0deg,rgba(7,24,40,.6),transparent 46%)}
+.hero-nodes{position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none;display:block}
+.hero-content{position:relative;z-index:3;height:100%;display:flex;flex-direction:column;justify-content:center;padding:calc(var(--nav-h) + 34px) 0 118px}
+.js .hero-copy>*{opacity:0;transform:translateY(26px);transition:opacity .75s ease,transform .95s var(--spring)}
+.js .is-revealed .hero-copy>*{opacity:1;transform:none}
+.hero-copy>:nth-child(2){transition-delay:.09s}.hero-copy>:nth-child(3){transition-delay:.18s}.hero-copy>:nth-child(4){transition-delay:.27s}.hero-copy>:nth-child(5){transition-delay:.36s}
+.hero-dots{position:absolute;z-index:4;right:max(22px,calc((100vw - 1160px) / 2));bottom:96px;display:flex;gap:8px;align-items:center}
+.hero-dot{position:relative;width:12px;height:24px;padding:0;border:0;background:none;cursor:pointer;transition:width .5s var(--spring)}
+.hero-dot::before,.hero-dot::after{content:"";position:absolute;left:0;right:0;top:9px;height:6px;border-radius:6px}
+.hero-dot::before{background:rgba(255,255,255,.42)}
+.hero-dot::after{background:#e7cf91;transform:scaleX(0);transform-origin:0 50%}
+.hero-dot.is-active{width:40px}
+.hero-dot.is-active::after{animation:dot-fill var(--slide-ms,3600ms) linear forwards}
+.is-paused .hero-dot.is-active::after{animation-play-state:paused}
+.hero-dot:focus-visible{outline:2px solid #fff;outline-offset:2px;border-radius:6px}
+@keyframes dot-fill{to{transform:scaleX(1)}}
+
+/* ======================= Folded-paper sidebar ======================= */
+.fold-backdrop{position:fixed;inset:0;z-index:44;background:rgba(8,24,40,.45);opacity:0;visibility:hidden;transition:opacity .5s ease,visibility 0s .5s}
+.fold-open .fold-backdrop{opacity:1;visibility:visible;transition:opacity .5s ease}
+.fold-wrap{position:fixed;left:0;top:104px;width:320px;height:min(430px,calc(100vh - 200px));height:min(430px,calc(100svh - 200px));z-index:45;perspective:1400px;transform:translateX(-160px);transition:transform .9s var(--spring-lin);pointer-events:none}
+.fold-open .fold-wrap{transform:none;pointer-events:auto}
+.fold-a,.fold-b{position:absolute;top:0;width:160px;height:100%;transform-origin:0 50%;transform-style:preserve-3d;transition:transform .95s cubic-bezier(.6,0,.2,1)}
+.fold-a{left:0;transform:rotateY(62deg)}
+.fold-b{left:100%;transform:rotateY(-124deg)}
+.fold-open .fold-a,.fold-open .fold-b{transform:rotateY(0deg)}
+.fold-face{position:absolute;inset:0;padding:22px 16px;overflow:auto;background:linear-gradient(165deg,#fff,#eef4f1);border:1px solid var(--line);backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 18px 40px rgba(10,30,40,.22)}
+.fold-face::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(10,30,40,.04),rgba(10,30,40,var(--shade,.3)));opacity:1;transition:opacity .9s ease}
+.fold-b .fold-face{--shade:.14}
+.fold-open .fold-face::after{opacity:0}
+.fold-a .fold-face{border-radius:16px 0 0 16px}.fold-b .fold-face{border-radius:0 16px 16px 0;background:linear-gradient(165deg,#173e4b,#102b3a);color:#fff;border-color:#102b3a}
+.fold-title{font:800 .68rem Manrope;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin:0 0 12px}
+.fold-b .fold-title{color:#e7cf91}
+.fold-list{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.fold-list a{display:block;padding:8px 9px;border-radius:9px;font:700 .8rem/1.3 Manrope;text-decoration:none;color:#35505c;border-left:2px solid transparent;transition:background .2s,color .2s}
+.fold-list a:hover,.fold-list a:focus-visible{background:var(--soft);color:var(--green-dark);outline:none}
+.fold-list a[aria-current="true"]{background:var(--soft);color:var(--green-dark);border-left-color:var(--gold)}
+.fold-b .fold-list a{color:rgba(255,255,255,.86)}.fold-b .fold-list a:hover,.fold-b .fold-list a:focus-visible{background:rgba(255,255,255,.1);color:#fff}
+.fold-seal{display:block;width:54px;height:54px;object-fit:contain;margin:18px 9px 0;background:#fff;border-radius:50%;padding:3px}
+.fold-toggle{position:fixed;left:0;top:104px;z-index:46;display:flex;align-items:center;justify-content:center;width:30px;height:118px;padding:0;border:0;border-radius:0 12px 12px 0;background:#102b3a;color:#f3e2a8;cursor:pointer;box-shadow:0 8px 22px rgba(8,24,40,.3);transition:transform .9s var(--spring-lin),background .2s}
+.fold-toggle:hover{background:#173e4b}
+.fold-toggle:focus-visible{outline:3px solid #fff;outline-offset:2px;box-shadow:0 0 0 6px #287d68}
+.fold-toggle span{writing-mode:vertical-rl;transform:rotate(180deg);font:800 .7rem Manrope;letter-spacing:.14em;text-transform:uppercase}
+.fold-open .fold-toggle{transform:translateX(320px)}
+@media(min-width:1380px){.fold-wrap{transform:translateX(-58px)}.fold-open .fold-wrap{transform:none}}
+
+/* ======================= Stacking cards ======================= */
+.stack-section{padding-top:12px}
+.stack{--stack-base:96px;display:grid;row-gap:34vh;padding-bottom:4vh}
+.stack-card{position:sticky;top:calc(var(--stack-base) + var(--i) * 80px);transform-origin:50% 0;border-radius:22px;overflow:hidden;min-height:310px;display:flex;flex-direction:column;box-shadow:0 -14px 38px rgba(10,30,40,.2),0 24px 50px rgba(18,48,58,.1)}
+.stack-head{flex:0 0 80px;height:80px;display:flex;align-items:center;justify-content:center;text-align:center;gap:18px;padding:0 32px;border-bottom:1px solid rgba(255,255,255,.16)}
+.stack-head h3{font:700 1.5rem 'Playfair Display',Georgia,serif;margin:0}
+.stack-tag{font:800 .74rem Manrope;letter-spacing:.12em;opacity:.85;white-space:nowrap}
+.stack-card p{margin:0 auto;padding:32px 32px 38px;max-width:64ch;text-align:center;font-size:1.06rem;line-height:1.7}
+.tone-ink{background:linear-gradient(145deg,#1a4655,#102b3a);color:#fff}.tone-ink .stack-tag{color:#e7cf91}
+.tone-green{background:linear-gradient(145deg,#2f8f77,#155543);color:#fff}.tone-green .stack-tag{color:#f3e2a8}
+.tone-gold{background:linear-gradient(145deg,#f0dfaa,#d7b66d);color:#142d3b}.tone-gold .stack-head{border-bottom-color:rgba(20,45,59,.18)}.tone-gold .stack-tag{color:#4b3a12}
+
+/* ======================= Horizontal pinned row (GSAP) ======================= */
+.hscroll{padding:0;background:linear-gradient(180deg,var(--paper),#e8f1ed)}
+.hscroll-pin{height:100vh;height:100svh;display:flex;flex-direction:column;justify-content:center;gap:28px;padding:calc(var(--nav-h) + 4px) 0 64px;overflow:hidden}
+.hscroll-pin .section-head{margin:0 auto}
+.hscroll-viewport{overflow:hidden;flex:none}
+.hscroll-track{display:flex;gap:18px;list-style:none;margin:0;padding:8px max(22px,calc((100vw - 1160px) / 2)) 22px;width:max-content}
+.leader-card{flex:0 0 clamp(250px,24vw,320px);min-height:236px;display:flex;flex-direction:column;justify-content:flex-start;gap:34px;padding:24px;border-radius:20px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
+.leader-mono{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:#f1d99c;font:800 .95rem Manrope}
+.leader-card .position{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--green);font-weight:800;line-height:1.4}
+.leader-card h3{font:800 1.12rem/1.3 Manrope;margin:8px 0 0}
+.leader-card.is-presiding{background:linear-gradient(145deg,#1a4655,#102b3a);color:#fff;border-color:#102b3a}
+.leader-card.is-presiding .position{color:#e7cf91}.leader-card.is-presiding .leader-mono{background:#e0c17b;color:#172f3b}
+.hscroll-progress{flex:none;align-self:center;width:min(1160px,calc(100% - 44px));height:3px;border-radius:3px;background:rgba(20,45,59,.15);overflow:hidden}
+.hscroll-progress span{display:block;width:100%;height:100%;background:linear-gradient(90deg,var(--green),var(--gold));transform:scaleX(0);transform-origin:0 50%}
+.hscroll.is-native .hscroll-pin{height:auto;padding:calc(var(--nav-h) + 20px) 0 60px}
+.hscroll.is-native .hscroll-viewport{overflow-x:auto;scroll-snap-type:x proximity;scroll-padding-inline:max(22px,calc((100vw - 1160px) / 2))}
+.hscroll.is-native .leader-card{scroll-snap-align:start}
+
+/* ======================= Bento grid ======================= */
+.bento{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:minmax(158px,auto);gap:14px}
+.tile{position:relative;display:flex;flex-direction:column;justify-content:space-between;gap:22px;padding:26px;border-radius:22px;text-decoration:none;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);transition:transform .85s var(--spring-lin),opacity .45s ease;transform-origin:50% 50%}
+.tile:focus-visible{outline:3px solid #287d68;outline-offset:3px}
+.tile h3{font:800 1.12rem Manrope;margin:0 0 7px}
+.tile p{margin:0;font-size:.88rem;color:var(--muted)}
+.tile-cta{font:800 .8rem Manrope;color:var(--green-dark)}
+.tile-icon{width:50px;height:50px;border-radius:15px;background:var(--soft);display:grid;place-items:center;font-size:1.4rem}
+.tile-ord{grid-column:1 / 3;grid-row:1 / 3;background:linear-gradient(150deg,#1a4655,#0f2a38);border-color:#0f2a38;color:#fff}
+.tile-ord h3{font:700 1.9rem/1.15 'Playfair Display',Georgia,serif}.tile-ord p{color:rgba(255,255,255,.8);font-size:.98rem;max-width:44ch}.tile-ord .tile-icon{background:rgba(255,255,255,.12);color:#f3e2a8}.tile-ord .tile-cta{color:#f3e2a8}
+.tile-res{grid-column:3 / 5}
+.tile-stat strong{display:block;font:700 3rem/1 'Playfair Display',Georgia,serif;color:var(--green-dark)}
+.tile-stat span{display:block;margin-top:8px;font:800 .9rem Manrope}
+.tile-cert{grid-column:1 / 5;flex-direction:row;align-items:center;background:linear-gradient(120deg,#f6ecd0,#ecd9a3);border-color:#dcc384}
+.tile-cert p{color:#4b3a12}.tile-cert h3{color:#33270a}.tile-cert .tile-cta{color:#33270a;white-space:nowrap}
+.bento.has-active .tile{opacity:.42;transform:scale(.94)}
+.bento.has-active .tile.is-active{opacity:1;transform:scale(1.04);z-index:2;box-shadow:0 26px 60px rgba(18,48,58,.22)}
+
+
+/* ======================= Directory: light-blue gradient + violet neon outlines ======================= */
+[hidden]{display:none!important}
+.directory{background:linear-gradient(180deg,#eaf3fc,#e2ecf9)}
+.directory-shell{background:linear-gradient(160deg,#f5faff,#e8f1fe);border:1px solid rgba(124,92,255,.55);box-shadow:0 0 0 1px rgba(124,92,255,.12),0 0 30px rgba(124,92,255,.18),0 26px 60px rgba(30,60,120,.12)}
+.directory-toolbar{border-bottom:1px solid rgba(124,92,255,.22)}
+.tabs{background:#d9e8fb;border:1px solid rgba(124,92,255,.35)}
+.tab{color:#41587a}
+.tab[aria-selected="true"]{background:#fff;color:#3c2a9e;box-shadow:0 0 0 1px rgba(124,92,255,.55),0 0 14px rgba(124,92,255,.3)}
+.search-wrap input{background:#f7fbff;border:1px solid rgba(124,92,255,.42)}
+.search-wrap input:focus{border-color:#7c5cff;box-shadow:0 0 0 4px rgba(124,92,255,.16),0 0 18px rgba(124,92,255,.32)}
+.directory-note{color:#46607a}
+.committee-card,.assignment-card{background:linear-gradient(150deg,#f4faff 0%,#dbeaff 55%,#cfe2ff 100%);border:1px solid rgba(124,92,255,.62);box-shadow:0 0 0 1px rgba(124,92,255,.1),0 0 16px rgba(124,92,255,.2),inset 0 1px 0 rgba(255,255,255,.75)}
+.committee-card:hover,.assignment-card:hover{border-color:#7c5cff;box-shadow:0 0 0 1px rgba(124,92,255,.38),0 0 28px rgba(124,92,255,.4),0 14px 30px rgba(30,60,120,.14)}
+.committee-card h3,.assignment-card h3{color:#14283f}
+.card-number{color:#5b45c9}
+.card-tag{background:rgba(124,92,255,.12);color:#43309f;border:1px solid rgba(124,92,255,.32)}
+.roles dt{color:#455a74}.roles dd{color:#1b3250}
+.assignment-index{background:linear-gradient(145deg,#4b36b8,#2c1f7a);color:#fff;box-shadow:0 0 14px rgba(124,92,255,.45)}
+.assignment-label{color:#43309f}.barangay-list{color:#3a5069}
+.no-results{color:#46607a}
+@media(max-width:900px){.bento{grid-template-columns:repeat(2,1fr)}.tile-ord{grid-column:1 / 3;grid-row:auto}.tile-res{grid-column:1 / 3}.tile-cert{grid-column:1 / 3}}
+@media(max-width:650px){.hero-content{padding-bottom:140px}.hero-dots{bottom:128px}.stack-tag{font-size:.64rem;letter-spacing:.08em}.stack{--stack-base:84px;row-gap:26vh}.stack-head{padding:0 20px;gap:12px}.stack-head h3{font-size:1.25rem}.stack-card p{padding:24px 20px 28px;font-size:1rem}.tile-cert{flex-direction:column;align-items:flex-start}.leader-card{flex-basis:76vw}.bento{gap:12px}.tile{padding:22px}.tile-ord h3{font-size:1.55rem}.fold-wrap{top:96px}.fold-toggle{top:96px}}
+@media(prefers-reduced-motion:reduce){
+  .hero-track{height:auto}.hero-stage{position:relative;height:auto;min-height:100vh;min-height:100svh}
+  .js .hero-copy>*{opacity:1;transform:none;transition:none}
+  .hero-dot::after{animation:none!important}
+  .stack-card{transform:none!important}
+  .fold-wrap,.fold-a,.fold-b,.fold-toggle,.tile{transition-duration:.01ms!important}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}.site-nav.nav-hidden{transform:none}}
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<nav class="site-nav" id="siteNav" aria-label="Main navigation">
+  <div class="container nav-inner">
+    <a class="brand" href="#home" aria-label="Sangguniang Bayan ng Irosin home">
+      <img src="assets/seal-sb-irosin.jpg" alt="">
+      <span class="brand-copy"><strong>SANGGUNIANG BAYAN NG IROSIN</strong><span>Municipality of Irosin · Sorsogon</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a><a href="#vision">Vision &amp; Mission</a><a href="#leadership">Leadership</a>
+      <a href="#directory">Committees &amp; Assignments</a><a href="#records">Legislative Records</a><a href="#connect">Official Links</a>
+    </div>
+  </div>
+</nav>
+
+<div class="fold-backdrop" id="foldBackdrop"></div>
+<button class="fold-toggle" id="foldToggle" type="button" aria-expanded="false" aria-controls="foldPanel" aria-label="Open page sections"><span>Sections</span></button>
+<aside class="fold-wrap" id="foldPanel" aria-label="Page sections and quick links" aria-hidden="true" inert>
+  <div class="fold-a">
+    <div class="fold-face">
+      <p class="fold-title">On this page</p>
+      <ul class="fold-list" id="foldSpy">
+        <li><a href="#about">About</a></li><li><a href="#vision">Vision &amp; Mission</a></li><li><a href="#leadership">Leadership</a></li>
+        <li><a href="#directory">Committees</a></li><li><a href="#records">Records</a></li><li><a href="#connect">Official links</a></li>
+      </ul>
+    </div>
+    <div class="fold-b">
+      <div class="fold-face">
+        <p class="fold-title">Quick find</p>
+        <ul class="fold-list">
+          <li><a href="#directory" data-open-tab="0">Standing committees</a></li>
+          <li><a href="#directory" data-open-tab="1">Barangay assignments</a></li>
+          <li><a href="https://www.facebook.com/irosinInfonews" target="_blank" rel="noopener">Official Facebook</a></li>
+          <li><a href="mailto:sangguniangbayanirosin@gmail.com">Email the office</a></li>
+        </ul>
+        <img class="fold-seal" src="assets/seal-sb-irosin.jpg" alt="Sangguniang Bayan seal">
+      </div>
+    </div>
+  </div>
+</aside>
+
+<header class="hero" id="home">
+  <div class="hero-track" id="heroTrack">
+    <div class="hero-stage" id="heroStage">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-slide slide-collage is-active"></div>
+        <div class="hero-slide slide-civic"></div>
+        <div class="hero-slide slide-bulusan"></div>
+      </div>
+      <div class="hero-scrim"></div>
+      <canvas class="hero-nodes" id="heroNodes" aria-hidden="true"></canvas>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <div class="eyebrow">Official Legislative Website · Irosin, Sorsogon</div>
+          <h1>Public service.<br><span>Local leadership.</span><br>Shared progress.</h1>
+          <p class="hero-lead">The official information portal of the Sangguniang Bayan ng Irosin—connecting Irosanons to their local legislators, committee responsibilities, barangay assignments, and legislative resources.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#directory">Explore the directory <span aria-hidden="true">↗</span></a>
+            <a class="btn btn-ghost" href="#records">Ordinances &amp; resolutions</a>
+          </div>
+          <div class="hero-meta"><span><strong>Municipality of Irosin</strong> · Province of Sorsogon</span><span>Committee directory updated <strong>November 5, 2026</strong></span></div>
+        </div>
+      </div>
+      <div class="hero-dots" id="heroDots" role="group" aria-label="Hero background">
+        <button class="hero-dot is-active" type="button" aria-label="Show background 1 of 3: official collage" aria-current="true"></button>
+        <button class="hero-dot" type="button" aria-label="Show background 2 of 3: municipal building" aria-current="false"></button>
+        <button class="hero-dot" type="button" aria-label="Show background 3 of 3: Mount Bulusan and rice fields" aria-current="false"></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="quick-strip">
+  <div class="container quick-inner">
+    <div class="quick-item"><div class="quick-icon" aria-hidden="true">⚖</div><div><strong>Local Legislation</strong><span>Ordinances, resolutions and policy work</span></div></div>
+    <div class="quick-item"><div class="quick-icon" aria-hidden="true">⌂</div><div><strong>Barangay Representation</strong><span>Assigned council members and communities</span></div></div>
+    <div class="quick-item"><div class="quick-icon" aria-hidden="true">▤</div><div><strong>Public Information</strong><span>Official updates and document access</span></div></div>
+  </div>
+</div>
+
+<main>
+<section id="about">
+  <div class="section-head"><div class="section-kicker">Who we are</div><h2>About the Sangguniang Bayan</h2><p>The municipal legislative body serving the people and communities of Irosin.</p></div>
+  <div class="container about-grid">
+    <article class="surface about-copy reveal"><h3>Legislating for the public good</h3>
+      <p>The <strong>Sangguniang Bayan ng Irosin</strong> is the legislative body of the Municipality of Irosin, Sorsogon. It is composed of elected municipal councilors who craft ordinances, adopt resolutions, and oversee local policies that promote the welfare, development, and good governance of the municipality.</p>
+      <p>This official page provides the public with access to information about the Sangguniang Bayan, its members, barangay assignments, standing committees, and approved legislative measures.</p>
+    </article>
+    <aside class="surface about-highlight reveal"><h3>Rooted in community.<br>Focused on progress.</h3><p>Through deliberation, representation, and responsive local legislation, the Sangguniang Bayan works toward a resilient, inclusive, and progressive Irosin.</p><span class="quality-mark">Service · Accountability · Good governance</span></aside>
+  </div>
+</section>
+
+<section id="vision" class="stack-section">
+  <div class="section-head"><div class="section-kicker">Municipal direction</div><h2>Vision, Mission &amp; Quality Policy</h2><p>Guiding commitments of the Municipality of Irosin.</p></div>
+  <div class="container stack" id="stack">
+    <article class="stack-card tone-ink" style="--i:0"><header class="stack-head"><span class="stack-tag">01 / VISION</span><h3>Our Vision</h3></header><p>A livable, resilient, ecologically balanced and progressive center of agro-industry, eco-tourism, commerce and trade in the province, with people who are God-loving, healthy, globally competitive, gender sensitive and participative, nurtured by a just, transparent and accountable governance.</p></article>
+    <article class="stack-card tone-green" style="--i:1"><header class="stack-head"><span class="stack-tag">02 / MISSION</span><h3>Our Mission</h3></header><p>To promote the general welfare of Irosanons and develop all human resources through comprehensive and integrated delivery of basic services, enhancement of multi-sectoral participation and mustering of resources towards sustainable development.</p></article>
+    <article class="stack-card tone-gold" style="--i:2"><header class="stack-head"><span class="stack-tag">03 / QUALITY POLICY</span><h3>Our Commitment</h3></header><p>We commit to improve the quality of life and ensure sustainable development; deliver basic services and infrastructure; address stakeholder needs; satisfy applicable requirements; achieve our goals; and continually improve our processes and Quality Management System.</p></article>
+  </div>
+</section>
+
+<section id="leadership" class="hscroll" aria-labelledby="leadershipTitle">
+  <div class="hscroll-pin">
+    <div class="section-head container"><div class="section-kicker">Public officials</div><h2 id="leadershipTitle">Sangguniang Bayan Leadership</h2><p>Officials listed in the existing website directory. Keep scrolling to move across the row.</p></div>
+    <div class="hscroll-viewport"><ul class="hscroll-track" id="hTrack">
+      <li class="leader-card is-presiding"><span class="leader-mono" aria-hidden="true">AC</span><div><span class="position">Municipal Vice Mayor / Presiding Officer</span><h3>HON. ALFREDO J. CIELO, JR.</h3></div></li>
+      <li class="leader-card"><span class="leader-mono" aria-hidden="true">AD</span><div><span class="position">Sangguniang Bayan Member</span><h3>HON. AGUSTIN E. DELMONTE III</h3></div></li>
+      <li class="leader-card"><span class="leader-mono" aria-hidden="true">IF</span><div><span class="position">Sangguniang Bayan Member</span><h3>HON. IRVIN KARL S. FORTES</h3></div></li>
+      <li class="leader-card"><span class="leader-mono" aria-hidden="true">AB</span><div><span class="position">Sangguniang Bayan Member</span><h3>HON. ANSAM J. BRINGUELA</h3></div></li>
+      <li class="leader-card"><span class="leader-mono" aria-hidden="true">NO</span><div><span class="position">Sangguniang Bayan Member</span><h3>HON. NORBERTO T. ORTILE</h3></div></li>
+      <li class="leader-card"><span class="leader-mono" aria-hidden="true">MB</span><div><span class="position">Sangguniang Bayan Member</span><h3>HON. MERCY DONNA D. BALMES</h3></div></li>
+      <li class="leader-card"><span class="leader-mono" aria-hidden="true">MM</span><div><span class="position">Sangguniang Bayan Member</span><h3>HON. MELCHOR O. MICHELENA</h3></div></li>
+      <li class="leader-card"><span class="leader-mono" aria-hidden="true">RL</span><div><span class="position">Sangguniang Bayan Member</span><h3>HON. REYNALDO P. LASCANO JR.</h3></div></li>
+      <li class="leader-card"><span class="leader-mono" aria-hidden="true">JB</span><div><span class="position">Sangguniang Bayan Member</span><h3>HON. JESUS L. BORLAGDAN</h3></div></li>
+      <li class="leader-card"><span class="leader-mono" aria-hidden="true">JC</span><div><span class="position">Sangguniang Bayan Member</span><h3>HON. JOHN SAINT M. CARIÑO</h3></div></li>
+      <li class="leader-card"><span class="leader-mono" aria-hidden="true">RB</span><div><span class="position">Ex-Officio Member / Liga ng mga Barangay President</span><h3>HON. RUEL A. BELO</h3></div></li>
+      <li class="leader-card"><span class="leader-mono" aria-hidden="true">RF</span><div><span class="position">Secretary to the Sangguniang Bayan</span><h3>HON. ROBERTO G. FORTES</h3></div></li>
+    </ul></div>
+    <div class="hscroll-progress" aria-hidden="true"><span id="hBar"></span></div>
+  </div>
+</section>
+
+<section class="directory" id="directory">
+  <div class="container">
+    <div class="section-head"><div class="section-kicker">Official directory · Updated November 5, 2026</div><h2>Committees &amp; Barangay Assignments</h2><p>Browse the official standing committee composition and barangay responsibilities from the supplied updated directory.</p></div>
+    <div class="directory-shell">
+      <div class="directory-toolbar">
+        <div class="tabs" role="tablist" aria-label="Directory sections">
+          <button class="tab" id="committeesTab" role="tab" aria-selected="true" aria-controls="committeesPanel" tabindex="0">Standing Committees <span>(25)</span></button>
+          <button class="tab" id="assignmentsTab" role="tab" aria-selected="false" aria-controls="assignmentsPanel" tabindex="-1">Barangay Assignments <span>(10)</span></button>
+        </div>
+        <label class="search-wrap"><span aria-hidden="true">⌕</span><input id="directorySearch" type="search" placeholder="Search a committee, member or barangay…" autocomplete="off" aria-label="Search committees, members or barangays"></label>
+      </div>
+      <div class="directory-panel" id="committeesPanel" role="tabpanel" aria-labelledby="committeesTab">
+        <p class="directory-note">Each entry lists the chairperson, vice-chairperson, and members exactly as shown in the November 5, 2026 source directory.</p>
+        <div class="committee-grid" id="committeeGrid">
+        <article class="committee-card reveal" data-search="committee on women and gender equality mercy donna d. balmes reynaldo p. lascano jr. norberto t. ortile; ansam j. bringuela; melchor o. michelena">
+      <div class="card-top"><span class="card-number">01</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Women and Gender Equality</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Mercy Donna D. Balmes</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Reynaldo P. Lascano Jr.</dd></div>
+        <div><dt>Members</dt><dd>Hon. Norberto T. Ortile; Hon. Ansam J. Bringuela; Hon. Melchor O. Michelena</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on local government community development agustin e. delmonte iii irvin karl s. fortes reynaldo p. lascano jr.; jesus l. borlagdan; melchor o. michelena">
+      <div class="card-top"><span class="card-number">02</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Local Government Community Development</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Agustin E. Delmonte III</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Irvin Karl S. Fortes</dd></div>
+        <div><dt>Members</dt><dd>Hon. Reynaldo P. Lascano Jr.; Hon. Jesus L. Borlagdan; Hon. Melchor O. Michelena</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on barangay affairs ruel a. belo john saint m. cariño mercy donna d. balmes; jesus l. borlagdan">
+      <div class="card-top"><span class="card-number">03</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Barangay Affairs</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Ruel A. Belo</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. John Saint M. Cariño</dd></div>
+        <div><dt>Members</dt><dd>Hon. Mercy Donna D. Balmes; Hon. Jesus L. Borlagdan</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on justice, ethics, good government and human rights irvin karl s. fortes agustin e. delmonte iii mercy donna d. balmes; jesus l. borlagdan; reynaldo p. lascano jr.">
+      <div class="card-top"><span class="card-number">04</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Justice, Ethics, Good Government and Human Rights</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Irvin Karl S. Fortes</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Agustin E. Delmonte III</dd></div>
+        <div><dt>Members</dt><dd>Hon. Mercy Donna D. Balmes; Hon. Jesus L. Borlagdan; Hon. Reynaldo P. Lascano Jr.</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on transportation and communication melchor o. michelena norberto t. ortile ansam j. bringuela; jesus l. borlagdan; agustin e. delmonte iii">
+      <div class="card-top"><span class="card-number">05</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Transportation and Communication</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Melchor O. Michelena</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Norberto T. Ortile</dd></div>
+        <div><dt>Members</dt><dd>Hon. Ansam J. Bringuela; Hon. Jesus L. Borlagdan; Hon. Agustin E. Delmonte III</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on utilities reynaldo p. lascano jr. agustin e. delmonte iii melchor o. michelena; jesus l. borlagdan; ansam j. bringuela">
+      <div class="card-top"><span class="card-number">06</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Utilities</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Reynaldo P. Lascano Jr.</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Agustin E. Delmonte III</dd></div>
+        <div><dt>Members</dt><dd>Hon. Melchor O. Michelena; Hon. Jesus L. Borlagdan; Hon. Ansam J. Bringuela</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on public works, highways and infrastructure jesus l. borlagdan norberto t. ortile melchor o. michelena; agustin e. delmonte iii; ansam j. bringuela">
+      <div class="card-top"><span class="card-number">07</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Public Works, Highways and Infrastructure</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Jesus L. Borlagdan</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Norberto T. Ortile</dd></div>
+        <div><dt>Members</dt><dd>Hon. Melchor O. Michelena; Hon. Agustin E. Delmonte III; Hon. Ansam J. Bringuela</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on agriculture, livelihood, cooperative and accreditation norberto t. ortile agustin e. delmonte iii melchor o. michelena; ansam j. bringuela; mercy donna d. balmes">
+      <div class="card-top"><span class="card-number">08</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Agriculture, Livelihood, Cooperative and Accreditation</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Norberto T. Ortile</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Agustin E. Delmonte III</dd></div>
+        <div><dt>Members</dt><dd>Hon. Melchor O. Michelena; Hon. Ansam J. Bringuela; Hon. Mercy Donna D. Balmes</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on public order and security jesus l. borlagdan melchor o. michelena reynaldo p. lascano jr.; john saint m. cariño">
+      <div class="card-top"><span class="card-number">09</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Public Order and Security</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Jesus L. Borlagdan</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Melchor O. Michelena</dd></div>
+        <div><dt>Members</dt><dd>Hon. Reynaldo P. Lascano Jr.; Hon. John Saint M. Cariño</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on environment and natural resources norberto t. ortile melchor o. michelena agustin e. delmonte iii; jesus l. borlagdan; mercy donna d. balmes">
+      <div class="card-top"><span class="card-number">10</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Environment and Natural Resources</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Norberto T. Ortile</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Melchor O. Michelena</dd></div>
+        <div><dt>Members</dt><dd>Hon. Agustin E. Delmonte III; Hon. Jesus L. Borlagdan; Hon. Mercy Donna D. Balmes</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on rules and privileges irvin karl s. fortes jesus l. borlagdan agustin e. delmonte iii; reynaldo p. lascano jr.">
+      <div class="card-top"><span class="card-number">11</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Rules and Privileges</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Irvin Karl S. Fortes</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Jesus L. Borlagdan</dd></div>
+        <div><dt>Members</dt><dd>Hon. Agustin E. Delmonte III; Hon. Reynaldo P. Lascano Jr.</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on urban housing and land use ansam j. bringuela mercy donna d. balmes agustin e. delmonte iii; jesus l. borlagdan; irvin karl s. fortes">
+      <div class="card-top"><span class="card-number">12</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Urban Housing and Land Use</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Ansam J. Bringuela</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Mercy Donna D. Balmes</dd></div>
+        <div><dt>Members</dt><dd>Hon. Agustin E. Delmonte III; Hon. Jesus L. Borlagdan; Hon. Irvin Karl S. Fortes</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on public market and slaughterhouse ansam j. bringuela norberto t. ortile reynaldo p. lascano jr.; irvin karl s. fortes; agustin e. delmonte iii">
+      <div class="card-top"><span class="card-number">13</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Public Market and Slaughterhouse</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Ansam J. Bringuela</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Norberto T. Ortile</dd></div>
+        <div><dt>Members</dt><dd>Hon. Reynaldo P. Lascano Jr.; Hon. Irvin Karl S. Fortes; Hon. Agustin E. Delmonte III</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on health and nutrition mercy donna d. balmes norberto t. ortile ansam j. bringuela; jesus l. borlagdan; irvin karl s. fortes">
+      <div class="card-top"><span class="card-number">14</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Health and Nutrition</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Mercy Donna D. Balmes</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Norberto T. Ortile</dd></div>
+        <div><dt>Members</dt><dd>Hon. Ansam J. Bringuela; Hon. Jesus L. Borlagdan; Hon. Irvin Karl S. Fortes</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on education irvin karl s. fortes mercy donna d. balmes reynaldo p. lascano jr.; agustin e. delmonte iii; ansam j. bringuela">
+      <div class="card-top"><span class="card-number">15</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Education</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Irvin Karl S. Fortes</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Mercy Donna D. Balmes</dd></div>
+        <div><dt>Members</dt><dd>Hon. Reynaldo P. Lascano Jr.; Hon. Agustin E. Delmonte III; Hon. Ansam J. Bringuela</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on budget and appropriation ansam j. bringuela norberto t. ortile melchor o. michelena; mercy donna d. balmes">
+      <div class="card-top"><span class="card-number">16</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Budget and Appropriation</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Ansam J. Bringuela</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Norberto T. Ortile</dd></div>
+        <div><dt>Members</dt><dd>Hon. Melchor O. Michelena; Hon. Mercy Donna D. Balmes</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on trade and industry agustin e. delmonte iii reynaldo p. lascano jr. ansam j. bringuela; melchor o. michelena; irvin karl s. fortes">
+      <div class="card-top"><span class="card-number">17</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Trade and Industry</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Agustin E. Delmonte III</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Reynaldo P. Lascano Jr.</dd></div>
+        <div><dt>Members</dt><dd>Hon. Ansam J. Bringuela; Hon. Melchor O. Michelena; Hon. Irvin Karl S. Fortes</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on overseas workers and affairs reynaldo p. lascano jr. ansam j. bringuela irvin karl s. fortes; mercy donna d. balmes; agustin e. delmonte iii">
+      <div class="card-top"><span class="card-number">18</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Overseas Workers and Affairs</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Reynaldo P. Lascano Jr.</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Ansam J. Bringuela</dd></div>
+        <div><dt>Members</dt><dd>Hon. Irvin Karl S. Fortes; Hon. Mercy Donna D. Balmes; Hon. Agustin E. Delmonte III</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on ways and means ansam j. bringuela norberto t. ortile irvin karl s. fortes; john saint m. cariño; mercy donna d. balmes">
+      <div class="card-top"><span class="card-number">19</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Ways and Means</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Ansam J. Bringuela</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Norberto T. Ortile</dd></div>
+        <div><dt>Members</dt><dd>Hon. Irvin Karl S. Fortes; Hon. John Saint M. Cariño; Hon. Mercy Donna D. Balmes</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on games and amusement melchor o. michelena norberto t. ortile reynaldo p. lascano jr.; agustin e. delmonte iii; ansam j. bringuela">
+      <div class="card-top"><span class="card-number">20</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Games and Amusement</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Melchor O. Michelena</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Norberto T. Ortile</dd></div>
+        <div><dt>Members</dt><dd>Hon. Reynaldo P. Lascano Jr.; Hon. Agustin E. Delmonte III; Hon. Ansam J. Bringuela</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on disaster preparedness melchor o. michelena jesus l. borlagdan john saint m. cariño; agustin e. delmonte iii; ansam j. bringuela; reynaldo p. lascano jr.">
+      <div class="card-top"><span class="card-number">21</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Disaster Preparedness</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Melchor O. Michelena</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Jesus L. Borlagdan</dd></div>
+        <div><dt>Members</dt><dd>Hon. John Saint M. Cariño; Hon. Agustin E. Delmonte III; Hon. Ansam J. Bringuela; Hon. Reynaldo P. Lascano Jr.</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on tourism, culture and arts norberto t. ortile mercy donna d. balmes agustin e. delmonte iii; melchor o. michelena; john saint m. cariño">
+      <div class="card-top"><span class="card-number">22</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Tourism, Culture and Arts</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Norberto T. Ortile</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Mercy Donna D. Balmes</dd></div>
+        <div><dt>Members</dt><dd>Hon. Agustin E. Delmonte III; Hon. Melchor O. Michelena; Hon. John Saint M. Cariño</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on energy and rural electrification reynaldo p. lascano jr. norberto t. ortile jesus l. borlagdan; john saint m. cariño; agustin e. delmonte iii">
+      <div class="card-top"><span class="card-number">23</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Energy and Rural Electrification</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Reynaldo P. Lascano Jr.</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Norberto T. Ortile</dd></div>
+        <div><dt>Members</dt><dd>Hon. Jesus L. Borlagdan; Hon. John Saint M. Cariño; Hon. Agustin E. Delmonte III</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on urban poor and labor jesus l. borlagdan reynaldo p. lascano jr. mercy donna d. balmes; agustin e. delmonte iii; ruel a. belo">
+      <div class="card-top"><span class="card-number">24</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Urban Poor and Labor</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Jesus L. Borlagdan</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Reynaldo P. Lascano Jr.</dd></div>
+        <div><dt>Members</dt><dd>Hon. Mercy Donna D. Balmes; Hon. Agustin E. Delmonte III; Hon. Ruel A. Belo</dd></div>
+      </dl>
+    </article>
+<article class="committee-card reveal" data-search="committee on population, family relations and social services mercy donna d. balmes agustin e. delmonte iii ansam j. bringuela; jesus l. borlagdan; norberto t. ortile">
+      <div class="card-top"><span class="card-number">25</span><span class="card-tag">Standing committee</span></div>
+      <h3>Committee on Population, Family Relations and Social Services</h3>
+      <dl class="roles">
+        <div><dt>Chairperson</dt><dd>Hon. Mercy Donna D. Balmes</dd></div>
+        <div><dt>Vice-Chairperson</dt><dd>Hon. Agustin E. Delmonte III</dd></div>
+        <div><dt>Members</dt><dd>Hon. Ansam J. Bringuela; Hon. Jesus L. Borlagdan; Hon. Norberto T. Ortile</dd></div>
+      </dl>
+    </article>
+        </div>
+      </div>
+      <div class="directory-panel" id="assignmentsPanel" role="tabpanel" aria-labelledby="assignmentsTab" hidden>
+        <p class="directory-note">Barangay responsibilities are reproduced from the three-page Barangay Assignments section of the supplied directory.</p>
+        <div class="assignment-grid" id="assignmentGrid">
+        <article class="assignment-card reveal" data-search="agustin e. delmonte iii casini · sto. domingo · bolos">
+      <div class="assignment-index">01</div>
+      <div><p class="assignment-label">Sangguniang Bayan Member</p><h3>Hon. Agustin E. Delmonte III</h3>
+      <p class="barangay-list">Casini · Sto. Domingo · Bolos</p></div>
+    </article>
+<article class="assignment-card reveal" data-search="irvin karl s. fortes bagsangan · san agustin · macawayan">
+      <div class="assignment-index">02</div>
+      <div><p class="assignment-label">Sangguniang Bayan Member</p><h3>Hon. Irvin Karl S. Fortes</h3>
+      <p class="barangay-list">Bagsangan · San Agustin · Macawayan</p></div>
+    </article>
+<article class="assignment-card reveal" data-search="ansam j. bringuela batang · san julian · gabao">
+      <div class="assignment-index">03</div>
+      <div><p class="assignment-label">Sangguniang Bayan Member</p><h3>Hon. Ansam J. Bringuela</h3>
+      <p class="barangay-list">Batang · San Julian · Gabao</p></div>
+    </article>
+<article class="assignment-card reveal" data-search="norberto t. ortile bacolod · buenavista · san isidro">
+      <div class="assignment-index">04</div>
+      <div><p class="assignment-label">Sangguniang Bayan Member</p><h3>Hon. Norberto T. Ortile</h3>
+      <p class="barangay-list">Bacolod · Buenavista · San Isidro</p></div>
+    </article>
+<article class="assignment-card reveal" data-search="mercy donna d. balmes cawayan · tabon-tabon · liang · salvacion">
+      <div class="assignment-index">05</div>
+      <div><p class="assignment-label">Sangguniang Bayan Member</p><h3>Hon. Mercy Donna D. Balmes</h3>
+      <p class="barangay-list">Cawayan · Tabon-Tabon · Liang · Salvacion</p></div>
+    </article>
+<article class="assignment-card reveal" data-search="melchor o. michelena mapaso · san juan · patag">
+      <div class="assignment-index">06</div>
+      <div><p class="assignment-label">Sangguniang Bayan Member</p><h3>Hon. Melchor O. Michelena</h3>
+      <p class="barangay-list">Mapaso · San Juan · Patag</p></div>
+    </article>
+<article class="assignment-card reveal" data-search="reynaldo p. lascano jr. gumapia · bulawan · tongdol">
+      <div class="assignment-index">07</div>
+      <div><p class="assignment-label">Sangguniang Bayan Member</p><h3>Hon. Reynaldo P. Lascano Jr.</h3>
+      <p class="barangay-list">Gumapia · Bulawan · Tongdol</p></div>
+    </article>
+<article class="assignment-card reveal" data-search="jesus l. borlagdan tinampo · gulang-gulang · cogon · monbon">
+      <div class="assignment-index">08</div>
+      <div><p class="assignment-label">Sangguniang Bayan Member</p><h3>Hon. Jesus L. Borlagdan</h3>
+      <p class="barangay-list">Tinampo · Gulang-Gulang · Cogon · Monbon</p></div>
+    </article>
+<article class="assignment-card reveal" data-search="ruel a. belo carriedo">
+      <div class="assignment-index">09</div>
+      <div><p class="assignment-label">Sangguniang Bayan Member</p><h3>Hon. Ruel A. Belo</h3>
+      <p class="barangay-list">Carriedo</p></div>
+    </article>
+<article class="assignment-card reveal" data-search="john saint m. cariño san pedro">
+      <div class="assignment-index">10</div>
+      <div><p class="assignment-label">Sangguniang Bayan Member</p><h3>Hon. John Saint M. Cariño</h3>
+      <p class="barangay-list">San Pedro</p></div>
+    </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="records">
+  <div class="section-head"><div class="section-kicker">Legislative measures</div><h2>Ordinances &amp; Resolutions</h2><p>Access the Sangguniang Bayan’s legislative records through the official document repository.</p></div>
+  <div class="container bento" id="bento">
+    <a class="tile tile-ord" href="#connect"><div class="tile-icon" aria-hidden="true">▤</div><div><h3>Ordinances</h3><p>Local laws enacted by the Sangguniang Bayan governing municipal affairs, public safety, health, environment, and community development.</p></div><span class="tile-cta">Open the repository ↗</span></a>
+    <a class="tile tile-res" href="#connect"><div class="tile-icon" aria-hidden="true">📜</div><div><h3>Resolutions</h3><p>Formal expressions of policy, intent, or position of the Sangguniang Bayan on matters of public interest and local governance.</p></div></a>
+    <a class="tile tile-stat" href="#directory" data-open-tab="0"><div><strong>25</strong><span>Standing committees</span></div><p>Chairpersons, vice-chairpersons and members.</p></a>
+    <a class="tile tile-stat" href="#directory" data-open-tab="1"><div><strong>28</strong><span>Barangays covered</span></div><p>Shared among 10 assigned council members.</p></a>
+    <a class="tile tile-cert" href="mailto:sangguniangbayanirosin@gmail.com"><div><h3>Need a Certified True Copy?</h3><p>Message us on Facebook or email the office. Documents may be released electronically or claimed at the Sangguniang Bayan Office, San Julian, Irosin, Sorsogon.</p></div><span class="tile-cta">Email the office ↗</span></a>
+  </div>
+</section>
+
+<section class="connect" id="connect">
+  <div class="section-head"><div class="section-kicker">Stay connected</div><h2>Official Updates &amp; Documents</h2><p>Follow official information channels and access legislative documents.</p></div>
+  <div class="container connect-grid">
+    <article class="surface social-card reveal"><h3>Sangguniang Bayan ng Irosin · Official Facebook Page</h3><div class="fb-frame"><iframe title="Sangguniang Bayan ng Irosin official Facebook page" loading="lazy" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D61579483066799&tabs=timeline&width=500&height=460&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true" width="500" height="460" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div><div class="social-links"><a href="https://www.facebook.com/profile.php?id=61579483066799" target="_blank" rel="noopener">Open official Facebook page ↗</a><a href="https://www.facebook.com/irosinInfonews" target="_blank" rel="noopener">IROSIN INFONEWS ↗</a></div></article>
+    <article class="surface qr-card reveal"><h3>Ordinances &amp; Resolutions Repository</h3><img src="assets/qr-drive.jpg" alt="QR code for the official Google Drive repository of ordinances and resolutions"><p>Scan the QR code to access the official Google Drive containing approved and valid ordinances and resolutions.</p></article>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-seals"><img src="assets/seal-irosin.jpg" alt="Municipal Seal of Irosin"><img src="assets/seal-sb-irosin.jpg" alt="Sangguniang Bayan Seal"></div>
+    <strong>Sangguniang Bayan ng Irosin</strong><p>Municipality of Irosin, Province of Sorsogon · Republic of the Philippines</p>
+    <p><a href="mailto:sangguniangbayanirosin@gmail.com">sangguniangbayanirosin@gmail.com</a></p>
+    <div class="footer-bottom">Official public information website · Committee directory updated November 5, 2026</div>
+  </div>
+</footer>
+
+<div class="request-bar"><strong>Need a Certified True Copy?</strong> For original certified true copies of ordinances or resolutions, message us on <a href="https://www.facebook.com/irosinInfonews" target="_blank" rel="noopener">Facebook</a> or email <a href="mailto:sangguniangbayanirosin@gmail.com">sangguniangbayanirosin@gmail.com</a>. Documents may be released electronically or claimed at the Sangguniang Bayan Office, San Julian, Irosin, Sorsogon.</div>
+
+<script>
+(() => {
+  const nav = document.getElementById('siteNav');
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', String(open));
+    navToggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    navToggle.textContent = open ? '×' : '☰';
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    navToggle.setAttribute('aria-expanded','false');
+    navToggle.setAttribute('aria-label','Open navigation');
+    navToggle.textContent = '☰';
+  }));
+
+  let lastY = window.scrollY, ticking = false;
+  const updateNav = () => {
+    const y = window.scrollY;
+    const pastHeader = y > nav.offsetHeight + 4;
+    if (!pastHeader || y < lastY || navLinks.classList.contains('open') || nav.matches(':focus-within')) nav.classList.remove('nav-hidden');
+    else if (y > lastY + 2) nav.classList.add('nav-hidden');
+    lastY = y; ticking = false;
+  };
+  window.addEventListener('scroll', () => {
+    if (!ticking) { requestAnimationFrame(updateNav); ticking = true; }
+  }, {passive:true});
+
+  const tabs = [...document.querySelectorAll('[role="tab"]')];
+  const panels = [document.getElementById('committeesPanel'), document.getElementById('assignmentsPanel')];
+  let active = 0;
+  function selectTab(index, focus=false) {
+    active = index;
+    tabs.forEach((tab,i) => {
+      tab.setAttribute('aria-selected', String(i===index));
+      tab.tabIndex = i===index ? 0 : -1;
+    });
+    panels.forEach((panel,i) => panel.hidden = i!==index);
+    if (focus) tabs[index].focus();
+    filterDirectory();
+  }
+  tabs.forEach((tab,i) => {
+    tab.addEventListener('click', () => selectTab(i));
+    tab.addEventListener('keydown', e => {
+      let next = null;
+      if (e.key==='ArrowRight') next=(i+1)%tabs.length;
+      if (e.key==='ArrowLeft') next=(i+tabs.length-1)%tabs.length;
+      if (e.key==='Home') next=0;
+      if (e.key==='End') next=tabs.length-1;
+      if (next!==null) { e.preventDefault(); selectTab(next,true); }
+    });
+  });
+
+  const search = document.getElementById('directorySearch');
+  function filterDirectory() {
+    const q = search.value.trim().toLowerCase();
+    const selector = active===0 ? '#committeeGrid > *' : '#assignmentGrid > *';
+    const items = [...document.querySelectorAll(selector)];
+    let shown = 0;
+    items.forEach(item => {
+      const match = !q || item.dataset.search.includes(q);
+      item.hidden = !match;
+      if (match) shown++;
+    });
+    let empty = document.querySelector('.no-results');
+    if (!empty) {
+      empty = document.createElement('p');
+      empty.className='no-results';
+      empty.textContent='No matching records found. Try another name, committee or barangay.';
+    }
+    empty.hidden = shown !== 0;
+    const grid = document.querySelector(active===0 ? '#committeeGrid' : '#assignmentGrid');
+    if (shown===0) grid.appendChild(empty);
+    else empty.remove();
+  }
+  search.addEventListener('input', filterDirectory);
+
+  const revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); }
+    }), {threshold:.12});
+    revealEls.forEach(el => observer.observe(el));
+  } else revealEls.forEach(el => el.classList.add('is-visible'));
+
+  document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener('click', e => {
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) { e.preventDefault(); target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'}); }
+  }));
+})();
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+/* ==========================================================================
+   Sangguniang Bayan ng Irosin — motion modules
+   1. Hero: collage first, background slides every 3.6 s and on scroll
+   2. Hero: drifting node network on canvas (cursor is a node)
+   3. Stacking policy cards
+   4. Bento hover focus
+   5. Folded-paper sidebar
+   6. Pinned horizontal row (GSAP ScrollTrigger, with a native fallback)
+   ========================================================================== */
+(() => {
+  const rmQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+
+  /* ---------- 1 + 2. HERO: background slides + node network ---------- */
+  (function hero() {
+    const track = document.getElementById('heroTrack');
+    const stage = document.getElementById('heroStage');
+    const cv = document.getElementById('heroNodes');
+    if (!track || !stage || !cv) return;
+    const slides = [...stage.querySelectorAll('.hero-slide')];
+    const dots = [...stage.querySelectorAll('.hero-dot')];
+    const N = slides.length, INTERVAL = 3600;                          // a new background every 3.6 s
+    stage.style.setProperty('--slide-ms', INTERVAL + 'ms');
+
+    /* --- node network --- */
+    const ctx = cv.getContext('2d');
+    let W = 0, H = 0, dpr = 1, nodes = [], linkD = 120;
+    const mouse = { x: 0, y: 0, on: false };
+    let netActive = false, rafId = 0, lastT = 0;
+
+    const spawn = () => ({
+      x: Math.random() * W, y: Math.random() * H,
+      vx: (Math.random() - .5) * 26, vy: (Math.random() - .5) * 26,   // px per second
+      r: 1.3 + Math.random() * 1.3
+    });
+    function sizeCanvas() {
+      const w = cv.clientWidth, h = cv.clientHeight;
+      if (!w || !h) return;
+      W = w; H = h; dpr = Math.min(window.devicePixelRatio || 1, 2);
+      cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      linkD = clamp(W / 11, 92, 150);
+      const target = clamp(Math.round(W * H / 26000), 35, 60);       // 35–60 nodes
+      while (nodes.length < target) nodes.push(spawn());
+      nodes.length = target;
+      nodes.forEach(n => { n.x = Math.min(n.x, W); n.y = Math.min(n.y, H); });
+      if (rmQuery.matches) drawFrame();
+    }
+    function drawFrame() {
+      ctx.clearRect(0, 0, W, H);
+      const pts = mouse.on ? nodes.concat([{ x: mouse.x, y: mouse.y, r: 3, cursor: true }]) : nodes;
+      for (let i = 0; i < pts.length; i++) {
+        const a = pts[i];
+        for (let j = i + 1; j < pts.length; j++) {
+          const b = pts[j];
+          const reach = (a.cursor || b.cursor) ? linkD * 1.45 : linkD;
+          const dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy;
+          if (d2 < reach * reach) {
+            const f = 1 - Math.sqrt(d2) / reach;                       // fades with distance
+            ctx.strokeStyle = 'rgba(236,212,140,' + (f * ((a.cursor || b.cursor) ? .75 : .5)).toFixed(3) + ')';
+            ctx.lineWidth = (a.cursor || b.cursor) ? 1.25 : 1;
+            ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+          }
+        }
+      }
+      for (const p of pts) {
+        ctx.fillStyle = p.cursor ? 'rgba(243,226,168,.95)' : 'rgba(255,255,255,.72)';
+        ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 6.2832); ctx.fill();
+      }
+    }
+    function tick(ts) {
+      rafId = 0;
+      if (!netActive || document.hidden) return;
+      const dt = Math.min(.05, (ts - (lastT || ts)) / 1000); lastT = ts;
+      for (const n of nodes) {
+        n.x += n.vx * dt; n.y += n.vy * dt;
+        if (n.x < 0 || n.x > W) { n.vx *= -1; n.x = clamp(n.x, 0, W); }
+        if (n.y < 0 || n.y > H) { n.vy *= -1; n.y = clamp(n.y, 0, H); }
+      }
+      drawFrame();
+      rafId = requestAnimationFrame(tick);
+    }
+    function setNet(on) {
+      if (rmQuery.matches) return;
+      if (on === netActive) return;
+      netActive = on; lastT = 0;
+      if (on && !rafId) rafId = requestAnimationFrame(tick);
+    }
+    window.addEventListener('pointermove', e => {
+      const r = cv.getBoundingClientRect();
+      const x = e.clientX - r.left, y = e.clientY - r.top;
+      mouse.on = x >= 0 && y >= 0 && x <= r.width && y <= r.height && !rmQuery.matches;
+      mouse.x = x; mouse.y = y;
+    }, { passive: true });
+    document.addEventListener('pointerleave', () => { mouse.on = false; });
+    document.addEventListener('visibilitychange', () => { if (!document.hidden && netActive && !rafId) { lastT = 0; rafId = requestAnimationFrame(tick); } });
+
+
+    /* --- background slides --- */
+    let idx = 0, timer = 0, inView = true, scrollTarget = 0;
+    function paint() {
+      slides.forEach((s, k) => s.classList.toggle('is-active', k === idx));
+      dots.forEach((d, k) => { d.classList.toggle('is-active', k === idx); d.setAttribute('aria-current', String(k === idx)); });
+    }
+    function restartDot() {                                            // restart the little progress fill
+      const d = dots[idx]; if (!d) return;
+      d.classList.remove('is-active'); void d.offsetWidth; d.classList.add('is-active');
+    }
+    function arm() {
+      clearTimeout(timer);
+      const paused = rmQuery.matches || document.hidden || !inView;
+      stage.classList.toggle('is-paused', paused);
+      if (!paused) timer = setTimeout(() => show(idx + 1), INTERVAL);
+    }
+    function show(i) {
+      idx = (i + N) % N;
+      paint(); arm();
+    }
+    dots.forEach((d, k) => d.addEventListener('click', () => { if (k !== idx) show(k); }));
+    document.addEventListener('visibilitychange', () => { arm(); if (!document.hidden) restartDot(); });
+
+    /* scrolling through the hero also changes the background; the text and network stay put */
+    function progress() { return clamp(-track.getBoundingClientRect().top / Math.max(1, track.offsetHeight - stage.clientHeight), 0, 1); }
+    let ticking = false;
+    function onScroll() {
+      ticking = false;
+      if (rmQuery.matches) return;
+      const r = track.getBoundingClientRect();
+      if (r.bottom < 0 || r.top > window.innerHeight) return;
+      const t = Math.min(N - 1, Math.floor(progress() * N));
+      if (t !== scrollTarget) { scrollTarget = t; if (t !== idx) show(t); }
+    }
+    window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
+
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(es => {
+        inView = es[0].isIntersecting;
+        setNet(inView); arm(); if (inView) restartDot();
+      }, { threshold: 0 }).observe(stage);
+    }
+
+    window.addEventListener('resize', sizeCanvas);
+    sizeCanvas();
+    stage.classList.add('is-revealed');                                // headline + buttons animate in once on load
+    if (rmQuery.matches) return;                                       // reduced motion: static collage, no cycling
+    setNet(true);
+    arm();
+    if (window.scrollY > 40) onScroll();
+  })();
+
+  /* ---------- 3. STACKING CARDS ---------- */
+  (function stack() {
+    const wrap = document.getElementById('stack');
+    if (!wrap) return;
+    const cards = [...wrap.querySelectorAll('.stack-card')];
+    const OFFSET = 80, SHRINK = .05;
+    let ticking = false;
+    function update() {
+      ticking = false;
+      if (rmQuery.matches) return;
+      const base = parseFloat(getComputedStyle(wrap).getPropertyValue('--stack-base')) || 96;
+      const prog = cards.map((c, j) => {
+        if (j === 0) return 0;
+        const prev = cards[j - 1];
+        const startTop = base + (j - 1) * OFFSET + prev.offsetHeight;  // where the next card first touches the previous one
+        const endTop = base + j * OFFSET;                              // where it finally pins
+        return clamp((startTop - c.getBoundingClientRect().top) / Math.max(1, startTop - endTop), 0, 1);
+      });
+      cards.forEach((c, i) => {
+        let sum = 0;
+        for (let j = i + 1; j < cards.length; j++) sum += prog[j];
+        c.style.transform = sum ? 'scale(' + (1 - SHRINK * sum).toFixed(4) + ')' : '';
+      });
+    }
+    const req = () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } };
+    window.addEventListener('scroll', req, { passive: true });
+    window.addEventListener('resize', req);
+    update();
+  })();
+
+  /* ---------- 4. BENTO HOVER FOCUS ---------- */
+  (function bento() {
+    const grid = document.getElementById('bento');
+    if (!grid) return;
+    const tiles = [...grid.querySelectorAll('.tile')];
+    const set = t => {
+      tiles.forEach(x => x.classList.toggle('is-active', x === t));
+      grid.classList.toggle('has-active', !!t);
+    };
+    tiles.forEach(t => {
+      t.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse' || e.pointerType === 'pen') set(t); });
+      t.addEventListener('pointerleave', () => set(null));
+      t.addEventListener('focus', () => set(t));
+      t.addEventListener('blur', () => set(null));
+    });
+    document.querySelectorAll('[data-open-tab]').forEach(a => a.addEventListener('click', () => {
+      const tab = document.getElementById(a.dataset.openTab === '1' ? 'assignmentsTab' : 'committeesTab');
+      if (tab) tab.click();
+    }));
+  })();
+
+  /* ---------- 5. FOLDED-PAPER SIDEBAR ---------- */
+  (function fold() {
+    const toggle = document.getElementById('foldToggle');
+    const panel = document.getElementById('foldPanel');
+    const backdrop = document.getElementById('foldBackdrop');
+    if (!toggle || !panel) return;
+    const root = document.body;
+    function setOpen(open) {
+      root.classList.toggle('fold-open', open);
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Close page sections' : 'Open page sections');
+      panel.setAttribute('aria-hidden', String(!open));
+      panel.inert = !open;
+    }
+    toggle.addEventListener('click', () => setOpen(!root.classList.contains('fold-open')));
+    backdrop.addEventListener('click', () => setOpen(false));
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && root.classList.contains('fold-open')) { setOpen(false); toggle.focus(); } });
+    document.addEventListener('click', e => {
+      if (root.classList.contains('fold-open') && !panel.contains(e.target) && !toggle.contains(e.target)) setOpen(false);
+    });
+    panel.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setTimeout(() => setOpen(false), 120)));
+    setOpen(false);
+
+    // highlight the section being read
+    const links = [...panel.querySelectorAll('#foldSpy a')];
+    const map = new Map(links.map(a => [a.getAttribute('href').slice(1), a]));
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(entries => entries.forEach(en => {
+        if (!en.isIntersecting) return;
+        links.forEach(a => a.removeAttribute('aria-current'));
+        const a = map.get(en.target.id); if (a) a.setAttribute('aria-current', 'true');
+      }), { rootMargin: '-40% 0px -55% 0px' });
+      map.forEach((_, id) => { const s = document.getElementById(id); if (s) io.observe(s); });
+    }
+  })();
+
+  /* ---------- 6. PINNED HORIZONTAL ROW ---------- */
+  (function hscroll() {
+    const sec = document.getElementById('leadership');
+    const trackEl = document.getElementById('hTrack');
+    const bar = document.getElementById('hBar');
+    if (!sec || !trackEl || !bar) return;
+    const viewport = trackEl.parentElement;
+
+    function native() {                                                // no GSAP / reduced motion: a plain swipeable row
+      sec.classList.add('is-native');
+      const upd = () => {
+        const max = viewport.scrollWidth - viewport.clientWidth;
+        bar.style.transform = 'scaleX(' + (max > 0 ? clamp(viewport.scrollLeft / max, 0, 1) : 0) + ')';
+      };
+      viewport.addEventListener('scroll', upd, { passive: true });
+      window.addEventListener('resize', upd);
+      upd();
+    }
+
+    if (rmQuery.matches || !window.gsap || !window.ScrollTrigger) { native(); return; }
+
+    gsap.registerPlugin(ScrollTrigger);
+    const dist = () => Math.max(0, trackEl.scrollWidth - document.documentElement.clientWidth);
+    gsap.to(trackEl, {
+      x: () => -dist(),
+      ease: 'none',
+      scrollTrigger: {
+        trigger: sec,
+        start: 'top top',
+        end: () => '+=' + dist(),
+        pin: true,
+        scrub: .6,
+        anticipatePin: 1,
+        invalidateOnRefresh: true,
+        onUpdate: self => { bar.style.transform = 'scaleX(' + self.progress.toFixed(4) + ')'; }
+      }
+    });
+    window.addEventListener('load', () => ScrollTrigger.refresh());
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => ScrollTrigger.refresh());
+  })();
+})();
+
+</script>
+</body>
+</html>
